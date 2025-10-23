@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Rubik;
+    src: url(/Módulo\ 2/ex003/fonts/Rubik-Italic-VariableFont_wght.ttf) ;
+}
+
+body {
+    color: black;
+    font: normal bold 1em 'Rubik';
+}

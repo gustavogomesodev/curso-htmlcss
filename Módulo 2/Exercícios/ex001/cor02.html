@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gradiente em CSS </title>
+    <style>
+        body {
+            background-color: rgb(25, 25, 25);
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .item {
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            border: solid, white, 1px;
+        }
+        #um {
+            background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 0));
+        }
+        #dois {
+            background-image: linear-gradient(to left, rgb(255, 156, 64), rgb(0, 0, 0));
+        }
+        #tres {
+            background-image: linear-gradient(to top, rgb(246, 255, 0), rgb(0, 0, 0));
+        }
+        #quatro {
+            background-image: linear-gradient(to bottom, rgb(68, 255, 0), rgb(0, 0, 0));
+        }
+        #cinco {
+            background-image: radial-gradient(circle, rgb(0, 217, 255), rgb(0, 0, 0));
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Degradês Linear </h1>
+        <div class="item" id="um"> </div>
+        <div class="item" id="dois"> </div>
+        <div class="item" id="tres"> </div>
+        <div class="item" id="quatro"> </div>
+        <h1> Degradê Radial </h1>
+        <div class="item" id="cinco"> </div>
+    </div>
+</body>
+</html>

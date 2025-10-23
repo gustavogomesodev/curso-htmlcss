@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mídias em HTML </title>
+</head>
+<body>
+    <h1> Imagens Dinâmmicas </h1>
+    <p> 
+        Tente abrir este site em vários dispositivos diferentes ou dimplesmente regule o tamanho do navegador.
+    </p>
+    <picture> 
+        <source media="(max-width: 750px)" srcset="/Exercícios/ex011/imagens/imagem_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="/Exercícios/ex011/imagens/imagem_m.png" type="image/png">
+        <img src="/Exercícios/ex011/imagens/imagem_g.png" alt="">
+    </picture>
+    <h1> Reproduzindo Áudio </h1>
+    <p> Vamos aprender a reporduzir áudios em HTML5 </p>
+    <audio preload="metadata" autoplay controls>
+        <source src="/Exercícios/ex011/media/Jesus_meu_esposo.mp3" type="audio/mpeg">
+        <source src="/Exercícios/ex011/media/Jesus_meu_esposo.mp3" type="audio/ogg">
+        <source src="/Exercícios/ex011/media/Jesus_meu_esposo.mp3" type="audio/wav">
+        <p> Infelizmente o seu Navegador não suporta a reprodução deste áudio, caso deseje fazer o dowload, <a href="/Exercícios/ex011/media/Jesus_meu_esposo.mp3"> clique aqui </a></p>
+    </audio>
+</body>
+</html>
