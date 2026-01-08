@@ -4,3 +4,5 @@ Curso de HTML5 e CSS3
 Estou aprendendo aq rpzd
 
 <a href="https://gustavogomesodev.github.io/curso-htmlcss/modulo-1/desafios/d002/index.html">Executar o Desafio 2 do módulo 1</a>
+
+Sou burro
